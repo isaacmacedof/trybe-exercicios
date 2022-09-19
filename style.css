@@ -1,52 +1,70 @@
-div:hover {
-  border: solid red; 
+.ordenade-list {
+  background-color: yellow;
 }
 
-div:nth-of-type(1) {
-  color: blue;
+ol.ordenade-list li:nth-of-type(odd) {
+  text-transform: lowercase;
 }
 
-div:nth-of-type(2) {
-  color: pink;
+ol.ordenade-list li:nth-of-type(even) {
+  color: green;
 }
 
-div:nth-of-type(3) {
-  color: black;
-  font-size: 26px;
+h1, h2, h3, h4, h5, h6{
+  color: ;
 }
 
-div:nth-of-type(4) {
-  color: red;
+h1 {
+  text-align: center;
 }
 
-div:nth-of-type(5) {
-  color: violet;
+.first {
+  background-color: rgb(235, 200, 84);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 200px;
+  margin-left: 37%;
+  display: inline-block;
 }
 
-h3:hover {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.second {
+  background-color: rgb(219, 219, 219);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 310px;
+  display: inline-block;
+  margin-left: 15%;
+
 }
 
-h3:nth-of-type(1) {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: italic;
+.third {
+  background-color: rgb(170, 142, 106);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 300px;
+  display: inline-block;
 }
 
-h3:nth-of-type(2) {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.title {
+  text-align: center;
 }
 
-h3:nth-of-type(3) {
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;
+.rewards1 {
+  display: inline-block;
+  margin-left: 14%;
+  text-align: center;
 }
 
-h3:nth-of-type(4) {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.rewards1-1 {
+  display: inline-block;
+  margin-left: 15%;
+  text-align: center;
 }
 
-h3:nth-of-type(5) {
-  font-family: sans-serif;
-  font-style: italic;
+.rewards2 {
+  display: inline-block;
+  text-align: center;
 }
-
