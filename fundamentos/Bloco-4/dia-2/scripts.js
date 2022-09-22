@@ -45,3 +45,24 @@ if (a%2 == 0 | b%2 == 0 | c%2 ==0) {
 } else {
   console.log(false);
 }
+
+let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+
+for (let i = 0; i < groceryList.length; i +=1) {
+  console.log (groceryList[i]);
+}
+
+let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+
+for (const jorge of names) {
+  console.log(jorge);
+}
+
+
+let counter = 0;
+
+while(counter !== 5) {
+  counter += 1;
+}
+
+console.log(counter)
