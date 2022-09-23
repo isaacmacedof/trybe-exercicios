@@ -41,3 +41,18 @@ for (let i = 0; i <= conta;) {
   
   resultado += 1;
 } console.log(resultado);
+
+let fatorial = null
+
+for (let i = 10; i <= 1; i -= 1) {
+  fatorial = fatorial * i; 
+} console.log(fatorial);
+
+let array = ['java', 'javascript', 'python', 'html', 'css'];
+
+let resposta = '';
+for (let i = 0; i < array.length; i++) {
+  if (i.length > resposta.length) {
+  resposta = resposta + array[i];
+  }
+} console.log(resposta.length);
