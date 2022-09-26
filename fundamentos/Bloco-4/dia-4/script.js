@@ -83,3 +83,11 @@ function calculo (n1 = Number, n2) {
 let resultado =  n1 + n2;
 return;
 };
+
+const amor = {
+  fistName: 'Carol',
+  lastName: 'Silveira',
+  age: 23,
+  canDrive: true,
+  musics: ['Louquinho', 'Girlfriend', 'p.s i love you'],
+};
