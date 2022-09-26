@@ -79,10 +79,10 @@ for (let i in car) {
   console.log(i, car[i])
 }
 
-function calculo (n1 = Number, n2) {
+/* function calculo (n1 = Number, n2) {
 let resultado =  n1 + n2;
 return;
-};
+}; */
 
 const amor = {
   fistName: 'Carol',
@@ -91,3 +91,11 @@ const amor = {
   canDrive: true,
   musics: ['Louquinho', 'Girlfriend', 'p.s i love you'],
 };
+
+console.log(amor.musics[2]);
+
+// exemplo de for in
+
+for (let i in amor) {
+  console.log(i, amor);
+}
