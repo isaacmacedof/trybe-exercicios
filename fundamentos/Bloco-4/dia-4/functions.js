@@ -93,3 +93,14 @@ function bigOfNumbers(a, b, c) {
 } console.log(bigOfNumbers(3, 4, 5));
  */
 
+/* 
+function positiveNegative(a) {
+  if (a > 0) {
+    return "positive";
+  } else if (a < 0) {
+    return "negative";
+  } else {
+    return "zero";
+  }
+}; console.log(positiveNegative(-321)); */
+
