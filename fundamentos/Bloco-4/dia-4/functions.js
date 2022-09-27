@@ -12,6 +12,7 @@ function media (person) {
 media (person1)
  */
 
+/* 
 function max (a, b) {
   if (a > b) {
     return a
@@ -20,4 +21,63 @@ function max (a, b) {
   }
 }
 
-console.log (max(10, 25))
+console.log (max(10, 25)) */
+
+/* const studentGame = [6, 11, 54, 34, 39, 44]
+const jogoDoIsaac = [3, 41, 34, 56, 32, 13]
+let numberOfHits = 0
+let numerosSorteados = []
+
+function loteria (megaSenaNumbers, jogoDoIsaac) {
+  for (let i = 0; i < jogoDoIsaac.length; i+=1) {
+    let drawNumber = megaSenaNumbers[i]
+
+    for (let iStudent = 0; iStudent < jogoDoIsaac.length; iStudent+=1) {
+      let studentNumber = jogoDoIsaac[iStudent]
+     
+      if (drawNumber === studentNumber) {
+      numerosSorteados.push(studentNumber[iStudent])
+      numberOfHits += 1;
+      return numberOfHits + ' foram a quantidade de acertos e esses foram os numeros: ' + numerosSorteados
+      }      
+    }
+  } 
+}
+console.log(numerosSorteados)
+console.log(loteria (studentGame, jogoDoIsaac)); */
+
+/* function adição(a, b) {
+  let resultado = a + b;
+  return "O resultado da adição é " + resultado;
+} 
+
+console.log(adição(3, 43));
+
+function subtração(a, b) {
+  let resultado = a - b;
+  return "O resultado da subtração é " + resultado;
+} 
+
+console.log(subtração(3, 43));
+
+function multiplicação(a, b) {
+  let resultado = a * b;
+  return "O resultado da multiplicação é " + resultado;
+} 
+
+console.log(multiplicação(3, 43));
+
+function divisão(a, b) {
+  let resultado = a / b;
+  return "O resultado da divisão é " + resultado;
+} 
+
+console.log(divisão(3, 43));
+
+function modular(a, b) {
+  let resultado = a % b;
+  return "O resto da divisão é " + resultado;
+} 
+
+console.log(modular(3, 43)); */
+
