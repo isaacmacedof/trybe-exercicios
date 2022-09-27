@@ -104,3 +104,13 @@ function positiveNegative(a) {
   }
 }; console.log(positiveNegative(-321)); */
 
+/* function angulosTriangulo(a, b, c) {
+  if (a + b + c == 180) {
+    return true
+  } else if (a+b+c > 0 && a + b + c != 180) {
+    return false
+  } else {
+    return "erro"
+  }
+} console.log(angulosTriangulo(100, 40, -440)); */
+
