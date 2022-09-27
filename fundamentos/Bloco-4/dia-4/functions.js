@@ -81,3 +81,15 @@ function modular(a, b) {
 
 console.log(modular(3, 43)); */
 
+/* 
+function bigOfNumbers(a, b, c) {
+  if (a > b && a > c) {
+    return "O numero que é maior é " + a;
+  } else if (b > a && b > c) { 
+    return "O numero que é maior é " + b;
+  } else {
+    return "O numero que é maior é " + c;
+  };
+} console.log(bigOfNumbers(3, 4, 5));
+ */
+
