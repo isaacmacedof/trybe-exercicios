@@ -88,60 +88,19 @@ function maiorNome(teste) {
   } return total;
 } console.log(somaNumeros(5)); */
 
-const basket = [
-  'Melancia', 'Abacate', 'Melancia', 'Melancia', 'Uva', 'Laranja',
-  'Jaca', 'Pera', 'Melancia', 'Uva', 'Laranja', 'Melancia',
-  'Banana', 'Uva', 'Pera', 'Abacate', 'Laranja', 'Abacate',
-  'Banana', 'Melancia', 'Laranja', 'Laranja', 'Jaca', 'Uva',
-  'Banana', 'Uva', 'Laranja', 'Pera', 'Melancia', 'Uva',
-  'Jaca', 'Banana', 'Pera', 'Abacate', 'Melancia', 'Melancia',
-  'Laranja', 'Pera', 'Banana', 'Jaca', 'Laranja', 'Melancia',
-  'Abacate', 'Abacate', 'Pera', 'Melancia', 'Banana', 'Banana',
-  'Abacate', 'Uva', 'Laranja', 'Banana', 'Abacate', 'Uva',
-  'Uva', 'Abacate', 'Abacate', 'Melancia', 'Uva', 'Jaca',
-  'Uva', 'Banana', 'Abacate', 'Banana', 'Uva', 'Banana',
-  'Laranja', 'Laranja', 'Jaca', 'Jaca', 'Abacate', 'Jaca',
-  'Laranja', 'Melancia', 'Pera', 'Jaca', 'Melancia', 'Uva',
-  'Abacate', 'Jaca', 'Jaca', 'Abacate', 'Uva', 'Laranja',
-  'Pera', 'Melancia', 'Jaca', 'Pera', 'Laranja', 'Jaca',
-  'Pera', 'Melancia', 'Jaca', 'Banana', 'Laranja', 'Jaca',
-  'Banana', 'Pera', 'Abacate', 'Uva',
-];
-let market = {
-  frutas: 
-};
-function cesta(array) {
-  for (let i = 0; i < array.length; i+=1) {
-    if (market.frutas array[i]) {
-      
+function maisRepetido(n) {
+  let contRepetido = 0;
+  let contNumero = 0;
+  let indexNumeroRepetido = 0;
+  for (let i in n) {
+    let verificando = n[i];
+    for (let i2 in n) {
+      if (verificando === n[i2]) {
+        contNumero += 1;
+      }
     }
-    const element = array[i];
+  if (contNumero > contRepetido) {
     
-  }  
-}
-
-let info = {
-  personagem: 'Margarida',
-  origem: 'Pato Donald',
-  nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
-  recorrente: 'Sim',
-};
-
-let info2 = {
-  personagem: 'Tio Patinhas',
-  origem: 'Christmas on Bear Mountain, Dell’s Four Color Comics #178',
-  nota: 'O último MacPatinhas',
-  recorrente: 'Sim',
-};
-
-for (let properties in info) {
-  if (
-    properties === 'recorrente' &&
-    info[properties] === 'Sim' &&
-    info2[properties] === 'Sim'
-  ) {
-    console.log('Ambos recorrentes');
-  } else {
-    console.log(info[properties] + ' e ' + info2[properties]);
+  }
   }
 }
