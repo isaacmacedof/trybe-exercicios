@@ -1,5 +1,5 @@
 // loginValidation.test.js
-const { sum, myRemove } = require("./script.js");
+const { sum, myRemove, myFizzBuzz } = require("./script.js");
 
 
 describe('Função de somar dois numeros', () => {
@@ -31,3 +31,31 @@ describe('Função de remover um item', () => {
     expect(myRemove(teste, numero)).not.toContainEqual(numero)
   })
 })
+
+describe ('Função divisiveis por x', () => {
+  let numero = 15
+  
+  it ('Teste com um número divisivel por 3 e 5', () => {
+    expect(myFizzBuzz(numero)).toBe('fizzbuzz')
+  });
+
+  it ('Teste com um número divisível por 3', () => {
+    numero = 6
+    expect(myFizzBuzz(numero)).toBe('fizz')
+  });
+
+  it ('Teste com um número divisível por 5', () => {
+    numero = 5
+    expect(myFizzBuzz(numero)).toBe('buzz')
+  });
+
+  it ('Teste com com um número que não é divisível por 3 ou 5', () => {
+    numero = 2
+    expect(myFizzBuzz(numero)).toBe(numero)
+  });
+
+  it ('Teste com um parâmetro que não é um número', () => {
+    numero = 'alo'
+    expect(myFizzBuzz(numero)).toBeFalsy()
+  })
+});
