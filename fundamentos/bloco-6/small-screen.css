@@ -1,0 +1,113 @@
+/*
+ * @see http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * apply a natural box layout model to all elements, but allowing components to change
+ */
+ html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: larger;
+  background-color: aquamarine;
+  margin: 4%;
+}
+
+article {
+
+}
+
+h1 {
+  font-size: 1.7em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+img {
+	max-width: 100%;
+  width: 90%;
+  min-width: 100px;
+}
+
+main {
+
+}
+
+section {
+
+}
+
+figure {
+	margin: 0;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+#container-img {
+  align-items: center;
+}
+
+figcaption {
+  font-size: .8em;
+  text-align: center;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1300px) {
+  body {
+    background-color: blueviolet;
+    color: azure;
+    font-size: x-large;
+  }
+  figcaption {
+    text-align: start;
+  }
+  figure {
+    border: 2px solid red;
+    width: 348px;
+  }
+  #container-img {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1301px) {
+  body {
+    padding-left: 50px;
+    margin-left: 100px;
+    border: 2px solid red;
+    background-color: black;
+    color: azure;
+    font-size: xx-large;
+    max-width: 1600px;
+  }
+  figcaption {
+    text-align: start;
+  }
+  figure {
+    border: 2px solid red;
+  }
+  #container-img {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+
+  }
+  img {
+    width: 100%;
+  }
+}

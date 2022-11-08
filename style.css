@@ -1,0 +1,70 @@
+.ordenade-list {
+  background-color: yellow;
+}
+
+ol.ordenade-list li:nth-of-type(odd) {
+  text-transform: lowercase;
+}
+
+ol.ordenade-list li:nth-of-type(even) {
+  color: green;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: ;
+}
+
+h1 {
+  text-align: center;
+}
+
+.first {
+  background-color: rgb(235, 200, 84);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 200px;
+  margin-left: 37%;
+  display: inline-block;
+}
+
+.second {
+  background-color: rgb(219, 219, 219);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 310px;
+  display: inline-block;
+  margin-left: 15%;
+
+}
+
+.third {
+  background-color: rgb(170, 142, 106);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 300px;
+  display: inline-block;
+}
+
+.title {
+  text-align: center;
+}
+
+.rewards1 {
+  display: inline-block;
+  margin-left: 14%;
+  text-align: center;
+}
+
+.rewards1-1 {
+  display: inline-block;
+  margin-left: 15%;
+  text-align: center;
+}
+
+.rewards2 {
+  display: inline-block;
+  text-align: center;
+}
